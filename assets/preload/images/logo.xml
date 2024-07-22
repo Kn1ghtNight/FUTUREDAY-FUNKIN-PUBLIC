@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="logo.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="logo0000" x="0" y="0" width="833" height="398" frameX="-5" frameY="0" frameWidth="838" frameHeight="401"/>
+	<SubTexture name="logo0001" x="0" y="0" width="833" height="398" frameX="-5" frameY="0" frameWidth="838" frameHeight="401"/>
+	<SubTexture name="logo0002" x="838" y="0" width="825" height="398" frameX="-5" frameY="-3" frameWidth="838" frameHeight="401"/>
+	<SubTexture name="logo0003" x="838" y="0" width="825" height="398" frameX="-5" frameY="-3" frameWidth="838" frameHeight="401"/>
+	<SubTexture name="logo0004" x="0" y="403" width="828" height="395" frameX="0" frameY="-3" frameWidth="838" frameHeight="401"/>
+	<SubTexture name="logo0005" x="0" y="403" width="828" height="395" frameX="0" frameY="-3" frameWidth="838" frameHeight="401"/>
+	<SubTexture name="logo0006" x="833" y="403" width="823" height="395" frameX="-5" frameY="-3" frameWidth="838" frameHeight="401"/>
+	<SubTexture name="logo0007" x="833" y="403" width="823" height="395" frameX="-5" frameY="-3" frameWidth="838" frameHeight="401"/>
+	<SubTexture name="logo0008" x="833" y="403" width="823" height="395" frameX="-5" frameY="-3" frameWidth="838" frameHeight="401"/>
+	<SubTexture name="logo0009" x="833" y="403" width="823" height="395" frameX="-5" frameY="-3" frameWidth="838" frameHeight="401"/>
+	<SubTexture name="logo0010" x="833" y="403" width="823" height="395" frameX="-5" frameY="-3" frameWidth="838" frameHeight="401"/>
+	<SubTexture name="logo0011" x="833" y="403" width="823" height="395" frameX="-5" frameY="-3" frameWidth="838" frameHeight="401"/>
+	<SubTexture name="logo0012" x="833" y="403" width="823" height="395" frameX="-5" frameY="-3" frameWidth="838" frameHeight="401"/>
+	<SubTexture name="logo0013" x="833" y="403" width="823" height="395" frameX="-5" frameY="-3" frameWidth="838" frameHeight="401"/>
+</TextureAtlas>

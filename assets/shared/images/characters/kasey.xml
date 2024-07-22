@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kasey.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DILE0000" x="24" y="604" width="403" height="581" frameX="0" frameY="0" frameWidth="418" frameHeight="581"/>
+	<SubTexture name="DILE0001" x="439" y="604" width="403" height="581" frameX="0" frameY="0" frameWidth="418" frameHeight="581"/>
+	<SubTexture name="DILE0002" x="1264" y="1173" width="396" height="574" frameX="-14" frameY="-7" frameWidth="418" frameHeight="581"/>
+	<SubTexture name="DILE0003" x="24" y="1197" width="396" height="574" frameX="-14" frameY="-7" frameWidth="418" frameHeight="581"/>
+	<SubTexture name="DILE0004" x="2910" y="648" width="402" height="574" frameX="-16" frameY="-7" frameWidth="418" frameHeight="581"/>
+	<SubTexture name="DILE0005" x="3324" y="648" width="402" height="574" frameX="-16" frameY="-7" frameWidth="418" frameHeight="581"/>
+	<SubTexture name="DILE0006" x="1712" y="649" width="398" height="573" frameX="-14" frameY="-8" frameWidth="418" frameHeight="581"/>
+	<SubTexture name="DILE0007" x="2122" y="649" width="398" height="573" frameX="-14" frameY="-8" frameWidth="418" frameHeight="581"/>
+	<SubTexture name="DILE0008" x="854" y="1173" width="398" height="573" frameX="-14" frameY="-8" frameWidth="418" frameHeight="581"/>
+	<SubTexture name="DILE0009" x="2092" y="1234" width="396" height="573" frameX="-14" frameY="-8" frameWidth="418" frameHeight="581"/>
+	<SubTexture name="DILE0010" x="2500" y="1234" width="396" height="573" frameX="-14" frameY="-8" frameWidth="418" frameHeight="581"/>
+	<SubTexture name="DILE0011" x="2908" y="1234" width="396" height="573" frameX="-14" frameY="-8" frameWidth="418" frameHeight="581"/>
+	<SubTexture name="down anim0000" x="852" y="1758" width="396" height="449" frameX="0" frameY="-2" frameWidth="396" frameHeight="451"/>
+	<SubTexture name="down anim0001" x="1260" y="1759" width="396" height="449" frameX="0" frameY="-2" frameWidth="396" frameHeight="451"/>
+	<SubTexture name="down anim0002" x="3316" y="1234" width="396" height="451"/>
+	<SubTexture name="down anim0003" x="3316" y="1697" width="396" height="451"/>
+	<SubTexture name="left anim0000" x="854" y="604" width="417" height="557" frameX="-3" frameY="0" frameWidth="420" frameHeight="557"/>
+	<SubTexture name="left anim0001" x="1283" y="604" width="417" height="557" frameX="-3" frameY="0" frameWidth="420" frameHeight="557"/>
+	<SubTexture name="left anim0002" x="432" y="1197" width="408" height="557" frameX="0" frameY="0" frameWidth="420" frameHeight="557"/>
+	<SubTexture name="left anim0003" x="1672" y="1234" width="408" height="557" frameX="0" frameY="0" frameWidth="420" frameHeight="557"/>
+	<SubTexture name="right anim0000" x="24" y="24" width="502" height="568"/>
+	<SubTexture name="right anim0001" x="538" y="24" width="502" height="568"/>
+	<SubTexture name="right anim0002" x="1052" y="24" width="489" height="568" frameX="-5" frameY="0" frameWidth="502" frameHeight="568"/>
+	<SubTexture name="right anim0003" x="1553" y="24" width="489" height="568" frameX="-5" frameY="0" frameWidth="502" frameHeight="568"/>
+	<SubTexture name="up anim0000" x="2054" y="24" width="416" height="613" frameX="-7" frameY="0" frameWidth="423" frameHeight="613"/>
+	<SubTexture name="up anim0001" x="2482" y="24" width="416" height="613" frameX="-7" frameY="0" frameWidth="423" frameHeight="613"/>
+	<SubTexture name="up anim0002" x="2910" y="24" width="416" height="612" frameX="-1" frameY="0" frameWidth="423" frameHeight="613"/>
+	<SubTexture name="up anim0003" x="3338" y="24" width="416" height="612" frameX="-1" frameY="0" frameWidth="423" frameHeight="613"/>
+</TextureAtlas>

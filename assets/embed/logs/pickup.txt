@@ -1,0 +1,14 @@
+BEGIN LOG "PICKUP"
+
+(LOG HAS BEEN TRANSCRIBED FROM DEVICE HEADPHONE-RD-2254-AN-ST)
+While browsing a local junkyard, I noticed a little speaker unit that came with a monitor,
+dunno where this ever came from or whoever owned it or made it even.
+I'm gonna talk with the owner to see if he agrees on a price or hell, even get it for free even.
+Probably going to upgrade it along the way just to see if this dang thing
+even works. It's pretty heavy so I also might need someone else to carry it.
+Either way could use it to play my music or store some files my internet wont let me upload.
+Curse you Internet Service Provider! Overpriced and shitty, won't even let me pirate.
+C'mon, you shouldve let me slide when pirating that damn copy of Premiere Pro.
+Either way, ill wrap this up and try to fix this damn thing.
+
+END LOG

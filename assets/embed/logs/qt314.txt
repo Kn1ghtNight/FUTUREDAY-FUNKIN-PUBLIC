@@ -1,0 +1,77 @@
+ ________  _________  ________  ________           ___      ___  _______      ________  ________     _____    _______     
+|\   __  \|\___   ___\\   __  \|\   ____\         |\  \    /  /|/  ___  \    |\   ____\|\   ____\   / __  \  /  ___  \    
+\ \  \|\  \|___ \  \_\ \  \|\  \ \  \___|_        \ \  \  /  / /__/|_/  /|   \ \  \___|\ \  \___|_ |\/_|\  \/__/|_/  /|   
+ \ \  \\\  \   \ \  \ \ \  \\\  \ \_____  \        \ \  \/  / /|__|//  / /    \ \  \____\ \_____  \\|/ \ \  \__|//  / /   
+  \ \  \\\  \   \ \  \ \ \  \\\  \|____|\  \        \ \    / /__   /  /_/__  __\ \  ___  \|____|\  \  __\ \  \  /  /_/__  
+   \ \_____  \   \ \__\ \ \_______\____\_\  \        \ \__/ /\__\ |\________\\__\ \_______\____\_\  \|\__\ \__\|\________\
+    \|___| \__\   \|__|  \|_______|\_________\        \|__|/\|__|  \|_______\|__|\|_______|\_________\|__|\|__| \|_______|
+          \|__|                   \|_________|                                            \|_________|                    
+                                                                                                                          
+                                                                                                                          
+
+DIAGNOSTIC LOG FOR TROUBLESHOOTING PURPOSES.
+
+[00:00:00:00] BIOS BOOTING..
+[00:00:00:12] BIOS LOADED!
+[USER INPUT] help
+[TERMINAL RESPONSE]
+ ________  _________  ________  ________      
+|\   __  \|\___   ___\\   __  \|\   ____\     
+\ \  \|\  \|___ \  \_\ \  \|\  \ \  \___|_    
+ \ \  \\\  \   \ \  \ \ \  \\\  \ \_____  \   
+  \ \  \\\  \   \ \  \ \ \  \\\  \|____|\  \  
+   \ \_____  \   \ \__\ \ \_______\____\_\  \ 
+    \|___| \__\   \|__|  \|_______|\_________\
+          \|__|                   \|_________|
+                                              
+                                               
+WELCOME TO THE [REDACTED] HELP PROMPT. A NUMBER OF COMMANDS CAN BE SENT THROUGH THIS TERMINAL.
+
+Basic
+about: Gives basic info about the operating system and components installed.
+cd: Forwards to a set path given by the user.
+clr: Clears all previous commands in the session.
+convert: Converts FAT volumes to NTFS. You cannot convert the current drive.
+rename: Renames a file.
+copy: Copies a file.
+delete: Deletes a file.
+print: Prints a text file.
+shutdown: Shutsdown the system.
+version: Shows the version of the software.
+
+Dangerous
+fr: Factory Resets the personality card and system. THIS IS DANGEROUS. A Y/N PROMPT WILL POP UP TO PREVENT THIS BEING USED MALICIOUSLY.
+ONLY USE THIS IF THE SOFTWARE IS BROKEN OR A MODEL HAS GONE ROUGE.
+
+[USER INPUT] about
+
+OS VERSION: 2.65.12
+USERS STORED ON SYSTEM: N/A
+STORAGE: 1012.44GB FREE / 1.2 TB
+MODEL: [REDACTED] SPK-ASSIST-0532
+USERNAME: QT3.14
+FACE COLOR: PINK
+DISPLAY SIZE: 2560x1440
+MEM: 8GB DDR7
+
+Would you like to continue the boot process? y/n
+
+[USER INPUT] y
+
+[WARNING] BEHAVIORAL SOFTWARE IS OUT OF DATE. (0.26.1) NOT UPDATING CAN RESULT IN YOUR MODEL GOING ROGUE. PLEASE UPDATE TO 0.35.7. Would you like to update to 0.35.7? y/n
+[USER INPUT] y
+[00:00:00:18] BEHAVIORAL SOFTWARE UPDATING [▮▯▯▯▯▯▯▯▯▯▯▯▯ 1%]
+[00:00:00:24] BEHAVIORAL SOFTWARE UPDATING [▮▮▯▯▯▯▯▯▯ 23%]
+[00:00:00:26] BEHAVIORAL SOFTWARE UPDATING [▮▮▮▮▯▯▯▯▯ 45%]
+[00:00:00:29] BEHAVIORAL SOFTWARE UPDATING [▮▮▮▮▮▮▮▮▮▯▯ 82%]
+[00:00:00:32] BEHAVIORAL SOFTWARE UPDATING [▮▮▮▮▮▮▮▮▮▮▮▮▯ 98%]
+[00:00:00:33] BEHAVIORAL SOFTWARE UPDATED TO LATEST VERSION. PERSONALITY CARD WILL BOOT MOMENTARILY.
+[00:00:00:34] PERSONALITY CARD (PCIE SLOT 1) BOOTING..
+[00:00:00:35] PERSONALITY CARD (PCIE SLOT 1) LOADED!
+[00:00:00:37] SOUND CARD (PCIE SLOT 2) BOOTING..
+[00:00:00:38] SOUND CARD (PCIE SLOT 2) LOADED!
+[00:00:00:40] STARTUP APPLICATIONS BOOTING..
+[00:00:00:48] STARTUP APPLICATIONS LOADED!
+[00:00:00:49] IMAGING SENSOR BOOTING...
+[00:00:00:49] IMAGING SENSOR LOADED!
+[USER "Kasey" LOGGED INTO OS AT 00:00:01:22]

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cursor.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="click0000" x="0" y="0" width="30" height="29" frameX="-6" frameY="-2" frameWidth="38" frameHeight="34"/>
+	<SubTexture name="click0001" x="0" y="0" width="30" height="29" frameX="-6" frameY="-2" frameWidth="38" frameHeight="34"/>
+	<SubTexture name="click0002" x="35" y="0" width="37" height="33" frameX="0" frameY="0" frameWidth="38" frameHeight="34"/>
+	<SubTexture name="click0003" x="35" y="0" width="37" height="33" frameX="0" frameY="0" frameWidth="38" frameHeight="34"/>
+	<SubTexture name="click0004" x="77" y="0" width="38" height="34"/>
+	<SubTexture name="click0005" x="77" y="0" width="38" height="34"/>
+	<SubTexture name="click0006" x="0" y="39" width="31" height="31" frameX="-7" frameY="-3" frameWidth="38" frameHeight="34"/>
+	<SubTexture name="idle0000" x="0" y="39" width="31" height="31" frameX="0" frameY="0" frameWidth="38" frameHeight="34"/>
+</TextureAtlas>

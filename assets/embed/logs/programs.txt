@@ -1,0 +1,10 @@
+BEGIN LOG "PROGRAMS"
+
+(LOG HAS BEEN TRANSCRIBED FROM DEVICE HEADPHONE-RD-2254-AN-ST)
+THIS THING RUNS MARIO KART WII??? NO SERIOUSLY IT DOES THAT,
+I RAN DOLPHIN FOR SHITS AND GIGGLES AND IT WORKS. Good to know.
+Anyway, this thing talks too. I detatched the monitor,
+and made it be able to move around by itself. It isn't dependant on speakers anymore.
+Probably the last log I'll do with this.
+
+END LOG

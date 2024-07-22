@@ -1,0 +1,13 @@
+BEGIN LOG "MACHINE"
+
+(LOG HAS BEEN TRANSCRIBED FROM DEVICE HEADPHONE-RD-2254-AN-ST)
+I got that speaker unit home, found some spare parts that fit well,
+soldered some components on, and got this thing functioning.
+It seems to be one of those sentient computer robots like my previous one.
+Little bastard had a mind of its own, broke my window and escaped.
+I'll talk about HIM later. Anyway this thing has a terminal, ran an about command.
+This thing has a 1.2 Terabyte SSD and it's username is.. "QT3.14" Wonder why.
+I'll try and see if this thing can run some programs, could help a lot.
+If you wanna see the log to that thing, just run "log qt314".
+
+END LOG

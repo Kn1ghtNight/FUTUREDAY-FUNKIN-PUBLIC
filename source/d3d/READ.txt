@@ -1,0 +1,1 @@
+hey guys this is the folder where i do most of the actual real shit (directxtk implementation and main backend)

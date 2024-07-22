@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="notifAnims.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="error anim0000" x="15" y="15" width="146" height="4" frameX="0" frameY="-74" frameWidth="146" frameHeight="150"/>
+	<SubTexture name="error anim0001" x="15" y="15" width="146" height="4" frameX="0" frameY="-74" frameWidth="146" frameHeight="150"/>
+	<SubTexture name="error anim0002" x="176" y="15" width="137" height="23" frameX="-4" frameY="-65" frameWidth="146" frameHeight="150"/>
+	<SubTexture name="error anim0003" x="176" y="15" width="137" height="23" frameX="-4" frameY="-65" frameWidth="146" frameHeight="150"/>
+	<SubTexture name="error anim0004" x="328" y="15" width="130" height="150" frameX="-6" frameY="0" frameWidth="146" frameHeight="150"/>
+	<SubTexture name="error anim0005" x="328" y="15" width="130" height="150" frameX="-6" frameY="0" frameWidth="146" frameHeight="150"/>
+	<SubTexture name="error anim0006" x="473" y="15" width="137" height="139" frameX="-4" frameY="-7" frameWidth="146" frameHeight="150"/>
+	<SubTexture name="error anim0007" x="473" y="15" width="137" height="139" frameX="-4" frameY="-7" frameWidth="146" frameHeight="150"/>
+	<SubTexture name="error anim0008" x="625" y="15" width="138" height="137" frameX="-4" frameY="-8" frameWidth="146" frameHeight="150"/>
+	<SubTexture name="error anim0009" x="625" y="15" width="138" height="137" frameX="-4" frameY="-8" frameWidth="146" frameHeight="150"/>
+	<SubTexture name="error anim0010" x="778" y="15" width="137" height="139" frameX="-4" frameY="-7" frameWidth="146" frameHeight="150"/>
+	<SubTexture name="error anim0011" x="778" y="15" width="137" height="139" frameX="-4" frameY="-7" frameWidth="146" frameHeight="150"/>
+	<SubTexture name="error anim0012" x="778" y="15" width="137" height="139" frameX="-4" frameY="-7" frameWidth="146" frameHeight="150"/>
+	<SubTexture name="error anim0013" x="778" y="15" width="137" height="139" frameX="-4" frameY="-7" frameWidth="146" frameHeight="150"/>
+	<SubTexture name="warning anim0000" x="15" y="180" width="140" height="75" frameX="0" frameY="-30" frameWidth="140" frameHeight="140"/>
+	<SubTexture name="warning anim0001" x="15" y="180" width="140" height="75" frameX="0" frameY="-30" frameWidth="140" frameHeight="140"/>
+	<SubTexture name="warning anim0002" x="170" y="180" width="134" height="81" frameX="-3" frameY="-27" frameWidth="140" frameHeight="140"/>
+	<SubTexture name="warning anim0003" x="170" y="180" width="134" height="81" frameX="-3" frameY="-27" frameWidth="140" frameHeight="140"/>
+	<SubTexture name="warning anim0004" x="319" y="180" width="123" height="136" frameX="-5" frameY="0" frameWidth="140" frameHeight="140"/>
+	<SubTexture name="warning anim0005" x="319" y="180" width="123" height="136" frameX="-5" frameY="0" frameWidth="140" frameHeight="140"/>
+	<SubTexture name="warning anim0006" x="457" y="180" width="128" height="134" frameX="-3" frameY="-3" frameWidth="140" frameHeight="140"/>
+	<SubTexture name="warning anim0007" x="457" y="180" width="128" height="134" frameX="-3" frameY="-3" frameWidth="140" frameHeight="140"/>
+	<SubTexture name="warning anim0008" x="600" y="180" width="131" height="135" frameX="0" frameY="-5" frameWidth="140" frameHeight="140"/>
+	<SubTexture name="warning anim0009" x="600" y="180" width="131" height="135" frameX="0" frameY="-5" frameWidth="140" frameHeight="140"/>
+	<SubTexture name="warning anim0010" x="746" y="180" width="123" height="126" frameX="-8" frameY="-5" frameWidth="140" frameHeight="140"/>
+	<SubTexture name="warning anim0011" x="746" y="180" width="123" height="126" frameX="-8" frameY="-5" frameWidth="140" frameHeight="140"/>
+	<SubTexture name="warning anim0012" x="746" y="180" width="123" height="126" frameX="-8" frameY="-5" frameWidth="140" frameHeight="140"/>
+	<SubTexture name="warning anim0013" x="746" y="180" width="123" height="126" frameX="-8" frameY="-5" frameWidth="140" frameHeight="140"/>
+</TextureAtlas>

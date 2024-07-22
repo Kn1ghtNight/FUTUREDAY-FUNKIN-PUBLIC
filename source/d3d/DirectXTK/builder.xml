@@ -1,0 +1,15 @@
+<xml>
+	<files id='haxe'>
+		<compilervalue name="-I" value="${this_dir}/Incl/" />
+		<compilervalue name="-I" value="${this_dir}/Src/" />
+	</files>
+	
+	<!--increases exe size err-->
+	<target id='haxe' tool='linker' toolid='exe'>
+		<lib name="${this_dir}/Library/Debug/DirectXTK.lib" if="debug"/>
+		<lib name="${this_dir}/Library/Release/DirectXTK.lib" if="release"/>
+		<lib name = "dxgi.lib"        if = "windows"  />
+		<lib name = "d3d11.lib"       if = "windows" />
+		<lib name = "d3dcompiler.lib" if = "windows" />
+	</target>
+</xml>

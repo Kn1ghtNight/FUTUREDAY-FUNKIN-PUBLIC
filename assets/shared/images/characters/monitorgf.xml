@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="monitorgf.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="danceLeft0000" x="0" y="0" width="797" height="606"/>
+	<SubTexture name="danceLeft0001" x="0" y="0" width="797" height="606"/>
+	<SubTexture name="danceLeft0002" x="1604" y="0" width="794" height="599" frameX="-2" frameY="-7" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceLeft0003" x="1604" y="0" width="794" height="599" frameX="-2" frameY="-7" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceLeft0004" x="3202" y="0" width="788" height="590" frameX="-7" frameY="-16" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceLeft0005" x="3202" y="0" width="788" height="590" frameX="-7" frameY="-16" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceLeft0006" x="799" y="1197" width="782" height="577" frameX="-12" frameY="-29" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceLeft0007" x="799" y="1197" width="782" height="577" frameX="-12" frameY="-29" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceLeft0008" x="1586" y="1777" width="777" height="577" frameX="-15" frameY="-29" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceLeft0009" x="1586" y="1777" width="777" height="577" frameX="-15" frameY="-29" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceLeft0010" x="787" y="1779" width="777" height="577" frameX="-15" frameY="-29" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceLeft0011" x="787" y="1779" width="777" height="577" frameX="-15" frameY="-29" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceLeft0012" x="787" y="1779" width="777" height="577" frameX="-15" frameY="-29" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceLeft0013" x="787" y="1779" width="777" height="577" frameX="-15" frameY="-29" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceRight0000" x="802" y="0" width="797" height="606"/>
+	<SubTexture name="danceRight0001" x="802" y="0" width="797" height="606"/>
+	<SubTexture name="danceRight0002" x="2403" y="0" width="794" height="599" frameX="-2" frameY="-7" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceRight0003" x="2403" y="0" width="794" height="599" frameX="-2" frameY="-7" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceRight0004" x="3202" y="595" width="788" height="590" frameX="-7" frameY="-16" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceRight0005" x="3202" y="595" width="788" height="590" frameX="-7" frameY="-16" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceRight0006" x="0" y="1198" width="782" height="577" frameX="-12" frameY="-29" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceRight0007" x="0" y="1198" width="782" height="577" frameX="-12" frameY="-29" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceRight0008" x="3178" y="1779" width="777" height="577" frameX="-15" frameY="-29" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceRight0009" x="3178" y="1779" width="777" height="577" frameX="-15" frameY="-29" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceRight0010" x="0" y="1780" width="777" height="577" frameX="-15" frameY="-29" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceRight0011" x="0" y="1780" width="777" height="577" frameX="-15" frameY="-29" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceRight0012" x="0" y="1780" width="777" height="577" frameX="-15" frameY="-29" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="danceRight0013" x="0" y="1780" width="777" height="577" frameX="-15" frameY="-29" frameWidth="797" frameHeight="606"/>
+	<SubTexture name="sadge0000" x="2391" y="1193" width="797" height="573" frameX="0" frameY="-11" frameWidth="797" frameHeight="584"/>
+	<SubTexture name="sadge0001" x="1604" y="604" width="797" height="581" frameX="0" frameY="-3" frameWidth="797" frameHeight="584"/>
+	<SubTexture name="sadge0002" x="799" y="611" width="794" height="581" frameX="-2" frameY="-3" frameWidth="797" frameHeight="584"/>
+	<SubTexture name="sadge0003" x="0" y="611" width="794" height="582" frameX="-2" frameY="-2" frameWidth="797" frameHeight="584"/>
+	<SubTexture name="sadge0004" x="1598" y="1190" width="788" height="582" frameX="-7" frameY="-2" frameWidth="797" frameHeight="584"/>
+	<SubTexture name="sadge0005" x="2406" y="604" width="788" height="584" frameX="-7" frameY="0" frameWidth="797" frameHeight="584"/>
+	<SubTexture name="sadge0006" x="3199" y="1190" width="782" height="584" frameX="-12" frameY="0" frameWidth="797" frameHeight="584"/>
+	<SubTexture name="sadge0007" x="2391" y="1771" width="782" height="577" frameX="-12" frameY="-7" frameWidth="797" frameHeight="584"/>
+	<SubTexture name="sadge0008" x="2368" y="2353" width="777" height="577" frameX="-15" frameY="-7" frameWidth="797" frameHeight="584"/>
+	<SubTexture name="sadge0009" x="1569" y="2359" width="777" height="577" frameX="-15" frameY="-7" frameWidth="797" frameHeight="584"/>
+	<SubTexture name="sadge0010" x="1569" y="2359" width="777" height="577" frameX="-15" frameY="-7" frameWidth="797" frameHeight="584"/>
+	<SubTexture name="sadge0011" x="1569" y="2359" width="777" height="577" frameX="-15" frameY="-7" frameWidth="797" frameHeight="584"/>
+	<SubTexture name="sadge0012" x="1569" y="2359" width="777" height="577" frameX="-15" frameY="-7" frameWidth="797" frameHeight="584"/>
+	<SubTexture name="sadge0013" x="1569" y="2359" width="777" height="577" frameX="-15" frameY="-7" frameWidth="797" frameHeight="584"/>
+</TextureAtlas>

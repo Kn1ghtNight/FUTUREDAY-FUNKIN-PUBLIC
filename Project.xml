@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<!-- _________________________ Application Settings _________________________ -->
+
+	<app title="Futureday Funkin`" file="FutureFunk" packageName="com.kn1ghtnight.futuredayfunkin" package="com.kn1ghtnight.futuredayfunkin" main="Main" version="0.0.1" company="Kn1ghtNight" />
+
+	<!--Switch Export with Unique ApplicationID and Icon-->
+	<set name="APP_ID" value="0x0100f6c013bbc000" />
+
+	<!--The flixel preloader is not accurate in Chrome. You can use it regularly if you embed the swf into a html file
+		or you can set the actual size of your file manually at "FlxPreloaderBase-onUpdate-bytesTotal"-->
+	<!-- <app preloader="Preloader" resizable="true" /> -->
+	<app preloader="flixel.system.FlxPreloader" />
+
+	<!--Minimum without FLX_NO_GAMEPAD: 11.8, without FLX_NO_NATIVE_CURSOR: 11.2-->
+	<set name="SWF_VERSION" value="11.8" />
+
+	<!-- ____________________________ Window Settings ___________________________ -->
+
+	<!--These window settings apply to all targets-->
+	<window width="1280" height="720" fps="" background="#000000" hardware="true" vsync="false" />
+
+	<!--HTML5-specific-->
+	<window if="html5" resizable="true" />
+
+	<!--Desktop-specific-->
+	<window if="desktop" orientation="landscape" fullscreen="false" resizable="true" vsync="false"/>
+
+	<!--Mobile-specific-->
+	<window if="mobile" orientation="landscape" fullscreen="true" width="0" height="0" resizable="false"/>
+
+	<!--Switch-specific-->
+	<window if="switch" orientation="landscape" fullscreen="true" width="0" height="0" resizable="true" />
+
+	<!-- _____________________________ Path Settings ____________________________ -->
+
+	<set name="BUILD_DIR" value="export/debug" if="debug" />
+	<set name="BUILD_DIR" value="export/release" unless="debug" />
+	<set name="BUILD_DIR" value="export/32bit" if="32bits" />
+
+	<classpath name="source" />
+	
+	<define name="VIDEOS_ALLOWED" if="web || windows || cpp" unless="32bits || hl"/>
+	<define name="DISCORD_ALLOWED" if="cpp"/> <!--fatboy slim is fucking in heaven-->
+	<define name="CRASH_HANDLER" if="cpp" />
+
+	<assets path="assets/preload" rename="assets" exclude="*.ogg" if="web"/>
+	<assets path="assets/preload" rename="assets" exclude="*.mp3"  unless="web"/>
+
+	<define name="PRELOAD_ALL" unless="web" />
+	<define name="NO_PRELOAD_ALL" unless="PRELOAD_ALL"/>
+	
+	<library name="videos"        preload="true" />
+	<section if="PRELOAD_ALL">
+		<library name="songs"         preload="true" />
+		<library name="shared"        preload="true" />
+	</section>
+	
+	<section if="NO_PRELOAD_ALL">
+		<library name="songs"         preload="true" />
+		<library name="shared"        preload="false" />
+	</section>
+	
+	<assets path="assets/scripts"       library="scripts"/>
+	<assets path="assets/shaders"       library="shaders"/>
+
+	<assets path="assets/videos"        library="videos"        if="VIDEOS_ALLOWED"/>
+	<assets path="assets/songs"         library="songs"         exclude="*.ogg" if="web"/>
+	<assets path="assets/songs"         library="songs"         exclude="*.mp3" unless="web"/>
+	<assets path="assets/shared"        library="shared"        exclude="*.ogg" if="web"/>
+	<assets path="assets/shared"        library="shared"        exclude="*.mp3" unless="web"/>
+
+	<library name="assets/embed"    preload="true"/>
+	<assets path="assets/embed/" rename="assets/embed" embed="true" library="embed"/>
+	
+	<assets path="assets/fonts" embed='true'/>
+	
+	<!--comment this out if you dont want 3d-->
+	<define name="D3D" unless="hl"/>
+	
+	<!-- _______________________________ Libraries ______________________________ -->
+
+	<haxelib name="flixel" />
+	<haxedev set='webgl' />
+
+	<!--In case you want to use the addons package-->
+	<haxelib name="flixel-addons" />
+
+	<haxelib name="hscript" />
+	<define name="hscriptPos" />
+
+	<!--In case you want to use the ui package-->
+	<haxelib name="flixel-ui" />
+	<haxelib name="flxanimate" />
+	<haxelib name="hxvlc" if="VIDEOS_ALLOWED"/>
+	<haxelib name="faxe" if='switch'/>
+	<haxelib name="hxdiscord_rpc" if="DISCORD_ALLOWED"/> <!--blacklist system and rpc-->
+	<!--yeah, directx is really only supported on windows guys it also doesnt work on hl lol!
+	haxelib git linc_directx https://github.com/Zoardedz/linc_directx
+	forked to fix an error regarding hxcpp_extern_helpers-->
+	<haxelib name="linc_directx" if="windows" unless="hl"/>
+	
+	<!--WHY DIDNT YOU AVE THIS-->
+	<haxelib name="hxcpp-debug-server" if="desktop"/>
+
+	<!-- ______________________________ Haxedefines _____________________________ -->
+
+	<!--Disable the Flixel core focus lost screen-->
+	<haxedef name="FLX_NO_FOCUS_LOST_SCREEN" />
+
+	<!--Allow working memory greater than 1 Gig-->
+	<haxedef name="HXCPP_GC_BIG_BLOCKS"/>
+	
+	<!--Disable the Flixel core debugger. Automatically gets set whenever you compile in release mode!-->
+	<haxedef name="FLX_NO_DEBUG" unless="debug" />
+
+	<!--Enable this for Nape release builds for a serious peformance improvement-->
+	<haxedef name="NAPE_RELEASE_BUILD" unless="debug" />
+	
+	<!--Used for Izzy Engine's crash handler-->
+	<haxedef name="HXCPP_CHECK_POINTER" if="CRASH_HANDLER" />
+	<haxedef name="HXCPP_STACK_LINE" if="CRASH_HANDLER" />
+
+	<haxedef name="no_deprecation_warnings" />
+
+	<!-- _________________________________ Custom _______________________________ -->
+
+	<!--Place custom nodes like icons here (higher priority to override the HaxeFlixel icon)-->
+	
+	<icon path="art/iconOG.png" />
+</project>
